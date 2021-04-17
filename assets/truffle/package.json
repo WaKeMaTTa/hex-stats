@@ -1,0 +1,11 @@
+{
+  "name": "truffle",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/wakematta/hex-stats",
+  "author": "wakematta",
+  "license": "MIT",
+  "dependencies": {
+    "truffle": "^5.3.2"
+  }
+}
