@@ -22,7 +22,7 @@ title: HEX Stats
 email: wakematta+hexstats@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Compilation of graphs, charts and statistics for HEX.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/hex-stats" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: wakematta
 github_username:  wakematta
