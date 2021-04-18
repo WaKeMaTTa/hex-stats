@@ -1,0 +1,44 @@
+{
+  "plugin": "Sync and Watch Contract Events",
+  "description": "Hex_Event_Lisener_Claim",
+  "topic": "Claim(uint256,uint256,bytes20,address,address)",
+  "abi": {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "data0",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "data1",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "internalType": "bytes20",
+        "name": "btcAddr",
+        "type": "bytes20"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "claimToAddr",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "referrerAddr",
+        "type": "address"
+      }
+    ],
+    "name": "Claim",
+    "type": "event"
+  },
+  "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+  "tableName": "HexClaim"
+}

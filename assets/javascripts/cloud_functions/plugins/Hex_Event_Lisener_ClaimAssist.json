@@ -1,0 +1,38 @@
+{
+  "plugin": "Sync and Watch Contract Events",
+  "description": "Hex_Event_Lisener_ClaimAssist",
+  "topic": "ClaimAssist(uint256,uint256,uint256,address)",
+  "abi": {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "data0",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "data1",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "data2",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "senderAddr",
+        "type": "address"
+      }
+    ],
+    "name": "ClaimAssist",
+    "type": "event"
+  },
+  "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+  "tableName": "HexClaimAssist"
+}

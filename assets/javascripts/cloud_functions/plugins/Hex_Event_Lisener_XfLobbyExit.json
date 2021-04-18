@@ -1,0 +1,38 @@
+{
+  "plugin": "Sync and Watch Contract Events",
+  "description": "Hex_Event_Lisener_XfLobbyExit",
+  "topic": "XfLobbyExit(uint256,address,uint256,address)",
+  "abi": {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "data0",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "memberAddr",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "entryId",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "referrerAddr",
+        "type": "address"
+      }
+    ],
+    "name": "XfLobbyExit",
+    "type": "event"
+  },
+  "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+  "tableName": "HexXfLobbyExit"
+}

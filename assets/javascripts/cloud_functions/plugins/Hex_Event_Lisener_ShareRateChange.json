@@ -1,0 +1,26 @@
+{
+  "plugin": "Sync and Watch Contract Events",
+  "description": "Hex_Event_Lisener_ShareRateChange",
+  "topic": "ShareRateChange(uint256,uint40)",
+  "abi": {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "data0",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint40",
+        "name": "stakeId",
+        "type": "uint40"
+      }
+    ],
+    "name": "ShareRateChange",
+    "type": "event"
+  },
+  "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+  "tableName": "HexShareRateChange"
+}

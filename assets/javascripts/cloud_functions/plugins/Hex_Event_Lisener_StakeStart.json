@@ -1,0 +1,32 @@
+{
+  "plugin": "Sync and Watch Contract Events",
+  "description": "Hex_Event_Lisener_StakeStart",
+  "topic": "StakeStart(uint256,address,uint40)",
+  "abi": {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "data0",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "stakerAddr",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint40",
+        "name": "stakeId",
+        "type": "uint40"
+      }
+    ],
+    "name": "StakeStart",
+    "type": "event"
+  },
+  "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+  "tableName": "HexStakeStart"
+}

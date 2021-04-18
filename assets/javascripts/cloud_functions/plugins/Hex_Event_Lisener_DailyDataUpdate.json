@@ -1,0 +1,26 @@
+{
+  "plugin": "Sync and Watch Contract Events",
+  "description": "Hex_Event_Lisener_DailyDataUpdate",
+  "topic": "DailyDataUpdate(uint256,address)",
+  "abi": {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "data0",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "updaterAddr",
+        "type": "address"
+      }
+    ],
+    "name": "DailyDataUpdate",
+    "type": "event"
+  },
+  "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+  "tableName": "HexDailyDataUpdate"
+}
