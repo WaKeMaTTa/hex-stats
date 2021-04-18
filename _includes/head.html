@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
   {%- include head_meta_favicons.html %}
-  <link rel="stylesheet" href="./assets/main.css">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
   {% comment %}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
